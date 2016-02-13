@@ -70,9 +70,20 @@ What it sets up
 * [Homebrew Cask] for quickly installing Mac apps from the command line
 * [Homebrew Services] so you can easily stop, start, and restart services
 * [hub] for interacting with the GitHub API
+<<<<<<< HEAD
 * [PhantomJS] for headless website testing (unless on El Capitan, due to
 [this bug](https://github.com/Homebrew/homebrew/issues/42249))
 * [Postgres] for storing relational data
+=======
+<<<<<<< HEAD
+* [Postgres] for storing relational data
+* [Qt] for headless JavaScript testing via Capybara Webkit
+=======
+* [PhantomJS] for headless website testing (unless on El Capitan, due to
+[this bug](https://github.com/Homebrew/homebrew/issues/42249))
+* [Postgres] for storing relational data
+>>>>>>> master
+>>>>>>> fix-github-app-error
 * [RVM] for managing Ruby versions (includes the latest [Ruby])
 * [Sublime Text 3] for coding all the things
 * [Zsh] as your shell
@@ -85,8 +96,18 @@ What it sets up
 [Homebrew Cask]: http://caskroom.io/
 [Homebrew Services]: https://github.com/gapple/homebrew-services
 [hub]: https://github.com/github/hub
+<<<<<<< HEAD
 [PhantomJS]: http://phantomjs.org/
 [Postgres]: http://www.postgresql.org/
+=======
+<<<<<<< HEAD
+[Postgres]: http://www.postgresql.org/
+[Qt]: http://qt-project.org/
+=======
+[PhantomJS]: http://phantomjs.org/
+[Postgres]: http://www.postgresql.org/
+>>>>>>> master
+>>>>>>> fix-github-app-error
 [Ruby]: https://www.ruby-lang.org/en/
 [RVM]: https://github.com/wayneeseguin/rvm
 [Sublime Text 3]: http://www.sublimetext.com/3
