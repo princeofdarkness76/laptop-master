@@ -142,7 +142,21 @@ brew_install_or_upgrade 'postgresql'
 fancy_echo 'Restarting postgres...'
 brew services restart postgresql
 
-brew_install_or_upgrade 'phantomjs'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+brew_install_or_upgrade 'qt'
+=======
+>>>>>>> fix-github-app-error
+# PhantomJS doesn't support El Capitan yet
+# https://github.com/Homebrew/homebrew/issues/42249
+if ! sw_vers -productVersion | grep -q "^10\.11"; then
+  brew_install_or_upgrade 'phantomjs'
+fi
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> fix-github-app-error
 
 brew_install_or_upgrade 'hub'
 # shellcheck disable=SC2016
@@ -185,7 +199,15 @@ brew_install_or_upgrade 'brew-cask'
 brew_tap 'caskroom/versions'
 
 brew_cask_install 'flux'
+<<<<<<< HEAD
 brew_cask_install 'github-desktop'
+=======
+<<<<<<< HEAD
+brew_cask_install 'github'
+=======
+brew_cask_install 'github-desktop'
+>>>>>>> master
+>>>>>>> fix-github-app-error
 brew_cask_install 'sublime-text3'
 
 if [ -f "$HOME/.laptop.local" ]; then
@@ -208,7 +230,15 @@ if app_is_installed 'GitHub'; then
   fancy_echo "It looks like you've already configured your GitHub SSH keys."
   fancy_echo "If not, you can do it by signing in to the GitHub app on your Mac."
 elif [ ! -f "$HOME/.ssh/github_rsa.pub" ]; then
+<<<<<<< HEAD
+  open ~/Applications/GitHub\ Desktop.app
+=======
+<<<<<<< HEAD
   open ~/Applications/GitHub.app
+=======
+  open ~/Applications/GitHub\ Desktop.app
+>>>>>>> master
+>>>>>>> fix-github-app-error
 fi
 
 fancy_echo 'All done!'
