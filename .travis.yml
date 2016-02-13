@@ -2,6 +2,14 @@ language: sh
 
 before_script:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu/ trusty-backports restricted main universe"
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq shellcheck
+=======
+<<<<<<< HEAD
+>>>>>>> master
   - sudo add-apt-repository -y "deb http://mirrors.kernel.org/ubuntu utopic main universe"
   - sudo apt-get -y update
   - sudo apt-get -y install shellcheck
@@ -9,6 +17,10 @@ before_script:
   - sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu/ trusty-backports restricted main universe"
   - sudo apt-get update -qq
   - sudo apt-get install -qq shellcheck
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> fix-github-app-error
 >>>>>>> master
 
 script:

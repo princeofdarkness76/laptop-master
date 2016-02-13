@@ -71,12 +71,24 @@ What it sets up
 * [Homebrew Services] so you can easily stop, start, and restart services
 * [hub] for interacting with the GitHub API
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [PhantomJS] for headless website testing (unless on El Capitan, due to
+[this bug](https://github.com/Homebrew/homebrew/issues/42249))
+* [Postgres] for storing relational data
+=======
+<<<<<<< HEAD
+>>>>>>> master
 * [Postgres] for storing relational data
 * [Qt] for headless JavaScript testing via Capybara Webkit
 =======
 * [PhantomJS] for headless website testing (unless on El Capitan, due to
 [this bug](https://github.com/Homebrew/homebrew/issues/42249))
 * [Postgres] for storing relational data
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> fix-github-app-error
 >>>>>>> master
 * [RVM] for managing Ruby versions (includes the latest [Ruby])
 * [Sublime Text 3] for coding all the things
@@ -91,11 +103,22 @@ What it sets up
 [Homebrew Services]: https://github.com/gapple/homebrew-services
 [hub]: https://github.com/github/hub
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+[PhantomJS]: http://phantomjs.org/
+[Postgres]: http://www.postgresql.org/
+=======
+<<<<<<< HEAD
+>>>>>>> master
 [Postgres]: http://www.postgresql.org/
 [Qt]: http://qt-project.org/
 =======
 [PhantomJS]: http://phantomjs.org/
 [Postgres]: http://www.postgresql.org/
+>>>>>>> master
+<<<<<<< HEAD
+=======
+>>>>>>> fix-github-app-error
 >>>>>>> master
 [Ruby]: https://www.ruby-lang.org/en/
 [RVM]: https://github.com/wayneeseguin/rvm
