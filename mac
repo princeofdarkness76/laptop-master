@@ -143,8 +143,11 @@ fancy_echo 'Restarting postgres...'
 brew services restart postgresql
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
+>>>>>>> master
 brew_install_or_upgrade 'qt'
 =======
 >>>>>>> fix-github-app-error
@@ -154,9 +157,13 @@ if ! sw_vers -productVersion | grep -q "^10\.11"; then
   brew_install_or_upgrade 'phantomjs'
 fi
 <<<<<<< HEAD
+>>>>>>> master
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> master
 >>>>>>> fix-github-app-error
+>>>>>>> master
 
 brew_install_or_upgrade 'hub'
 # shellcheck disable=SC2016
@@ -200,14 +207,20 @@ brew_tap 'caskroom/versions'
 
 brew_cask_install 'flux'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 brew_cask_install 'github-desktop'
 =======
 <<<<<<< HEAD
+>>>>>>> master
 brew_cask_install 'github'
 =======
 brew_cask_install 'github-desktop'
 >>>>>>> master
+<<<<<<< HEAD
+=======
 >>>>>>> fix-github-app-error
+>>>>>>> master
 brew_cask_install 'sublime-text3'
 
 if [ -f "$HOME/.laptop.local" ]; then
@@ -231,14 +244,20 @@ if app_is_installed 'GitHub'; then
   fancy_echo "If not, you can do it by signing in to the GitHub app on your Mac."
 elif [ ! -f "$HOME/.ssh/github_rsa.pub" ]; then
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
   open ~/Applications/GitHub\ Desktop.app
 =======
 <<<<<<< HEAD
+>>>>>>> master
   open ~/Applications/GitHub.app
 =======
   open ~/Applications/GitHub\ Desktop.app
 >>>>>>> master
+<<<<<<< HEAD
+=======
 >>>>>>> fix-github-app-error
+>>>>>>> master
 fi
 
 fancy_echo 'All done!'
